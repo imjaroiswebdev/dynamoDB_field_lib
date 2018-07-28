@@ -1,0 +1,16 @@
+{
+  "name": "dyanodb_field_lib",
+  "version": "1.0.0",
+  "description": "Library with utilities of common use in my workflow with AWS DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Antonio Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "dynamoose": "^0.8.7",
+    "ramda": "^0.25.0",
+    "uuid": "^3.3.2"
+  }
+}
