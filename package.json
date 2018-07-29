@@ -4,13 +4,22 @@
   "description": "Library with utilities of common use in my workflow with AWS DynamoDB",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
+    "nestedAttrUpdate": "node nestedAttrUpdate",
+    "rmNestedAttrTable": "aws dynamodb delete-table --table-name cats_test_table",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "José Antonio Reyes",
   "license": "ISC",
+  "peerDependencies": {
+    "aws-sdk": "^2.282.1"
+  },
   "dependencies": {
     "dynamoose": "^0.8.7",
     "ramda": "^0.25.0",
     "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^6.0.0"
   }
 }
